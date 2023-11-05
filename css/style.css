@@ -1,3 +1,9 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* HEADER */
     /* NAVBAR */
 #navbarSupportedContent form{
@@ -26,14 +32,22 @@
 
 /* MAIN */
     /* SIDEBAR */
-.sidebar{
+.my-sidebar{
     background-image: url(./img/sidebar-bg.png);
     height: 100vh;
     background-color: rgb(5, 30, 52);
+    min-width: 3rem;
+    max-width: 8rem;
 }
-
-
-
+.my-sidebar .nav-item {
+    width: 100%;
+}
+.my-list{
+    padding-top: 1rem;
+}
+.my-list li{
+    font-size: 1rem;
+}
 
 
 
