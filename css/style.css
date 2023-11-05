@@ -4,7 +4,7 @@
     width: 100%;
 }
 .icons-tr{
-    width: 12%;
+    width: 8%;
     color: rgb(91, 88, 88);
 }
 .icons-tr div i:last-child{
@@ -20,6 +20,9 @@
 .my-navbar{
     height: 2.4rem;
 }
+.my-logosm{
+    width: 53px;
+}
 
 /* MAIN */
     /* SIDEBAR */
@@ -27,4 +30,27 @@
     background-image: url(./img/sidebar-bg.png);
     height: 100vh;
     background-color: rgb(5, 30, 52);
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+    /* SM */
+
+
+    /* MD */
+@media screen and (min-width: 768px) {
+    .icons-tr{
+        width: 8%;
+    }
+}
+
+    /* LG */
+@media screen and (min-width: 992px) {
+
 }
