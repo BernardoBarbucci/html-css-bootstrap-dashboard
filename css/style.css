@@ -34,7 +34,7 @@ body{
     /* SIDEBAR */
 .my-sidebar{
     background-image: url(./img/sidebar-bg.png);
-    height: 100vh;
+    height: 50rem;
     background-color: rgb(5, 30, 52);
     min-width: 3rem;
     max-width: 8rem;
@@ -46,9 +46,18 @@ body{
     padding-top: 1rem;
 }
 .my-list li{
-    font-size: 1rem;
+    font-size: .9rem;
 }
+.my-sidebar .container-fluid .col-12 ul 
 
+    /* NEXT CLASSES */
+.next-classes{
+    background-color: red;
+    height: 300px;
+}
+.my-list li i{
+    font-size: 1.1rem;
+}
 
 
 
