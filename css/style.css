@@ -35,7 +35,7 @@ body{
 .my-sidebar{
     background-image: url(./img/sidebar-bg.png);
     height: 56.3rem;
-    background-color: rgb(5, 30, 52);
+    background-color: rgb(5, 6, 52);
     min-width: 3rem;
     max-width: 8rem;
 }
