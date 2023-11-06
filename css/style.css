@@ -57,20 +57,25 @@ body{
 .side-list ul:last-child i{
     font-size: 1rem;
 }
-
-
-    /* NEXT CLASSES */
-.next-classes{
-    background-color: rgb(0, 255, 42);
-    height: 300px;
-    width: 100rem;
-}
 .my-list li i{
     font-size: 1.1rem;
 }
 .custom-height{
     height: 100%;
 }
+    /* JUMBOTRON */
+.jumbotron{
+    padding: .5rem 1rem;
+    background-color: black;
+    width: ;
+}
+    /* NEXT CLASSES */
+.next-classes{
+    background-color: rgb(0, 255, 42);
+    /* height: 100%;
+    width: 100%; */
+}
+
 
 
 
@@ -82,7 +87,7 @@ body{
 
 /* CUSTOM TRY */
 .custom-try{
-
+    border: 2px solid yellow;
 }
 
 
