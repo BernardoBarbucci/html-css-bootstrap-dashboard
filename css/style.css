@@ -34,7 +34,7 @@ body{
     /* SIDEBAR */
 .my-sidebar{
     background-image: url(./img/sidebar-bg.png);
-    height: 50rem;
+    height: 56.3rem;
     background-color: rgb(5, 30, 52);
     min-width: 3rem;
     max-width: 8rem;
@@ -48,12 +48,25 @@ body{
 .my-list li{
     font-size: .9rem;
 }
-.my-sidebar .container-fluid .col-12 ul 
+.side-list{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.side-list ul:last-child i{
+    font-size: 1rem;
+}
+/* .side-list ul:last-child p{
+padding:;
+} */
+
 
     /* NEXT CLASSES */
 .next-classes{
-    background-color: red;
+    background-color: rgb(0, 255, 42);
     height: 300px;
+    width: 100rem;
 }
 .my-list li i{
     font-size: 1.1rem;
@@ -62,6 +75,18 @@ body{
     height: 100%;
 }
 
+
+
+
+
+
+
+
+
+/* CUSTOM TRY */
+.custom-try{
+
+}
 
 
 /* MEDIA QUERIES */
