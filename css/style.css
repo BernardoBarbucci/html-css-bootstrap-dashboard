@@ -65,23 +65,15 @@ body{
 }
 /* TOP-BAR */
 .custom-top_bar{
-    height: 50px;
     background-color: blue;
 }
-
-
-
 
     /* JUMBOTRON */
 .jumbotron{
     background-color: black;
 }
     /* NEXT CLASSES */
-.next-classes{
-    /* background-color: rgb(0, 255, 42);
-    height: 100%;
-    width: 100%; */
-}
+
 
 
 
@@ -90,9 +82,15 @@ body{
 .custom-try{
     border: 2px solid yellow;
 }
+
 /* MEDIA QUERIES */
     /* SM */
-
+@media screen and (max-width: 576px) {
+    .custom-top_bar{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
     /* MD */
 @media screen and (min-width: 768px) {
