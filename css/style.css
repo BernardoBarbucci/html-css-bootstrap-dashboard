@@ -69,7 +69,7 @@ body{
     color: white;
 }
 .custom-top_bar button{
-    background-color: rgb(22, 91, 186);
+    background-color: rgb(21, 83, 171);
     height: 1.5rem;
     border: none;
     border-radius: .5rem;
@@ -82,8 +82,11 @@ body{
 .jumbotron{
     background-color: black;
 }
-    /* NEXT CLASSES */
 
+    /* NEXT CLASSES */
+.custom-list_group{
+    padding: 1rem;
+}
 
 
 
