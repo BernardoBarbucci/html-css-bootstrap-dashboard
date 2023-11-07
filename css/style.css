@@ -82,9 +82,22 @@ body{
 .jumbotron{
     background-color: black;
 }
+/* COL-LEFT */
     /* NEXT CLASSES */
 
 
+/* COL-RIGHT */
+    /* TODO */
+    
+
+    /* GRAPH */
+.custom-graph li h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.custom-graph li{
+    font-size: .75rem;
+}
 
 
 /* CUSTOM TRY */
