@@ -119,6 +119,9 @@ body{
 .my-col_right ul li h1{
     font-size: 1.5rem;
 }
+.my-col_right ul li:nth-child(2) ul li label{
+    font-size: .7rem;
+}
 
     /* GRAPH */
 .custom-graph li h1{
