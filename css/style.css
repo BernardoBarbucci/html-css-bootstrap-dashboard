@@ -105,6 +105,14 @@ body{
     text-align: center;
     padding-top: .3rem;
 }
+.my-col_left ul li table tbody tr td button{
+    height: 1.3rem;
+    width: 2.2rem;
+    font-size: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* COL-RIGHT */
     /* TODO */
