@@ -87,14 +87,14 @@ body{
     font-size: 1.5rem;
 }
 .my-col_left ul li table thead tr th{
-    font-size: .8rem;
+    font-size: .7rem;
 }
 .my-col_left ul li table tbody tr th{
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: 500;
 }
 .my-col_left ul li table tbody tr td{
-    font-size: .8rem;
+    font-size: .7rem;
 }
 .my-col_left ul li table tbody tr th i{
     background-color: rgb(242, 101, 81);
