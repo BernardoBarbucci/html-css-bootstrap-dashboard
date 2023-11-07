@@ -92,7 +92,7 @@
               <div class="col-12 col-md-4 d-flex align-items-center">
                 <div class="d-flex flex-wrap flex-column py-1">
                   <p>Studenti online negli ultimi 30 minuti</p>
-                  <h2>125</h2>
+                  <h1>125</h2>
                 </div>
               </div>
               <div class="col-12 col-md-4 col-lg-6">
@@ -103,32 +103,93 @@
                 <div class="d-flex flex-wrap">
                   <button>Piano blaze</button>
                   <p>>></p>
-                  <button>Boolean mobile app</button>
-                  <button>Boolen web app</button>
-                  <button>Boolean blog app</button>
+                  <button class="d-block d-lg-none">+</button>
+                  <button class="d-none d-lg-block">Boolean mobile app</button>
+                  <button class="d-none d-lg-block">Boolen web app</button>
+                  <button class="d-none d-lg-block">Boolean blog app</button>
                 </div>
               </div>
             </div>
           </section>
         
           <!-- MAIN BG-WHITE -->
-          <section class="container-fluid custom-try d-flex flex-wrap">
-            
+          <section class="container-fluid d-flex flex-wrap">
             <!-- COL-LEFT -->
             <div class="my-col_left col-12 col-lg-8 pt-3">
               <!-- NEXT CLASSES -->
-              <ul class="list-group mb-3 me-lg-3">
-                <li class="list-group-item active bg-light bg-gradient text-black" aria-current="true">Prossime classi</li>
-                <li class="list-group-item">
-                  <p>Nome</p>
+              <ul class="list-group mb-3 me-lg-3 next-classes">
+                <li class="list-group-item active bg-secondary text-black" aria-current="true">
+                  <h1>Prossime classi</h1>
                 </li>
-                <li class="list-group-item">A third item</li>
-                <li class="list-group-item">A fourth item</li>
-                <li class="list-group-item">And a fifth one</li>
-                <li class="list-group-item">A fourth item</li>
-                <li class="list-group-item">And a fifth one</li>
-                <li class="list-group-item">And a fifth one</li>
+                <li class="list-group-item">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col"  colspan="4">Nome</th>
+                        <th scope="col">Data Inizio</th>
+                        <th scope="col">ROI</th>
+                        <th scope="col">Stato</th>
+                        <th scope="col">Azioni</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" colspan="4"><i class="fa-solid fa-code"></i> Classe 75</th>
+                        <td>15 Febbraio 2021</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                        <td>Mark</td>
+                      </tr>
+                      <th scope="row" colspan="4"><i class="fa-solid fa-code"></i></th>
+                        <td>16 Febbraio 2021</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                      </tr>
+                      <th scope="row" colspan="4">1</th>
+                        <td>17 Febbraio 2021</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                      </tr>
+                      <th scope="row" colspan="4">1</th>
+                        <td>18 Febbraio 2021</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                      </tr>
+                      <th scope="row" colspan="4">1</th>
+                        <td>19 Febbraio 2021</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                      </tr>
+                      <th scope="row" colspan="4">1</th>
+                        <td>20 Febbraio 2021</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" colspan="4">1</th>
+                        <td>21 Febbraio 2021</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                      </tr>
+                      <tr>
+                        <th scope="row" colspan="4">1</th>
+                        <td>22 Febbraio 2021</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </li>
               </ul>
+
               <!-- FAQ -->
               <ul class="list-group me-lg-3">
                 <li class="list-group-item active" aria-current="true">An active item</li>
@@ -143,20 +204,22 @@
             <div class="my-col_right col-12 col-lg-4">
               <!-- TODO -->
               <ul class="list-group pt-3">
-                <li class="list-group-item active" aria-current="true">Todo</li>
+                <li class="list-group-item active" aria-current="true">
+                  <h1>Todo</h1>
+                </li>
                 <li class="list-group-item">
                   <ul class="list-group">
                     <li class="list-group-item">
                       <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                      <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                      <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
                     </li>
                     <li class="list-group-item">
                       <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                      <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                      <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in classe #75</label>
                     </li>
                     <li class="list-group-item">
                       <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                      <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                      <label class="form-check-label" for="thirdCheckbox">Controllare username Github studenti</label>
                     </li>
                   </ul>
                 </li>
@@ -185,7 +248,6 @@
       </div>
     </main>
     <!-- JS FILE -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
